@@ -11,6 +11,9 @@ mod bevy_transform_07;
 #[cfg(feature = "bevy-transform-08")]
 mod bevy_transform_08;
 
+#[cfg(feature = "bevy-transform-10")]
+mod bevy_transform_10;
+
 /// Transform that can be used for a [`CollisionShape`]
 #[derive(Debug, Clone)]
 pub struct Transform {
